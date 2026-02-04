@@ -29,7 +29,6 @@ export const useInfiniteLoader = () => {
             setItems(prev => [...prev, ...res.data]);
             setCursor(res.nextCursor);
             if(!res.nextCursor) setHasMore(false)
-
         }catch(error){
             console.log(error)
         }finally{

@@ -7,7 +7,6 @@ export interface Post{
     content: string;
     image?: string
 }
-
 export interface FetchResponse{
     data: Post[];
     nextCursor: string | null
