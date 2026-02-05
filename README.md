@@ -14,3 +14,4 @@ This repository contains my solutions and design documents for frontend technica
 - [News Feed](./machine-coding/news-feed/index.tsx):Infinite scroll implementation using Intersection Observer and Custom Hooks.
 - [List Format](./machine-coding/listFormat/index.tsx): A utility to format string lists into natural language with support for sorting, deduplication, and truncation.
 - [Throttle](./machine-coding/throttle/index.tsx):A high-performance throttle utility supporting leading/trailing execution options and cancellation.
+- [Type Utilities II](./machine-coding/typeUtilitiesII/index.ts): A collection of robust type-checking functions (`isArray`, `isPlainObject`, etc.) handling edge cases like prototypes and iframes.
