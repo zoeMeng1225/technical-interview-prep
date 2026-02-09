@@ -15,3 +15,13 @@ This repository contains my solutions and design documents for frontend technica
 - [List Format](./machine-coding/listFormat/index.tsx): A utility to format string lists into natural language with support for sorting, deduplication, and truncation.
 - [Throttle](./machine-coding/throttle/index.tsx):A high-performance throttle utility supporting leading/trailing execution options and cancellation.
 - [Type Utilities II](./machine-coding/typeUtilitiesII/index.ts): A collection of robust type-checking functions (`isArray`, `isPlainObject`, etc.) handling edge cases like prototypes and iframes.
+- [Debounce](/machine-coding/debounce/index.tsx):A utility to limit the rate at which a function is executed, ensuring it only runs after a specified delay. Features TypeScript generics for type safety and `this` context preservation.
+
+## 🚀 How to Run Tests
+
+This project uses **Vitest** for unit testing.
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
