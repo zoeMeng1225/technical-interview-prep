@@ -3,6 +3,8 @@
  * that the library does not do:
  */
 
+
+
 export default function classNames(...args:any[]): string{
     const classes = new Set<string>();
 
@@ -21,8 +23,7 @@ export default function classNames(...args:any[]): string{
             process(item())
         }else if(Array.isArray(item)){
             //Array case: recursive traversal
-            item.forEach(process)
-            console.log(item)
+            item.forEach(process);
         }else if(type === 'object'){
             //Object case: handle switch logic
             //for example: classNames({foo: true, bar:false})
