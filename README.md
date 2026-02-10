@@ -10,7 +10,7 @@ This repository contains my solutions and design documents for frontend technica
 ## 💻 Machine Coding
 
 - [Autocomplete](machine-coding/autocomplete/index.tsx): React implementation with AbortController.
-- [ClassNames II](machine-coding/classNamesII): A custom implementation of the classnames utility with deduplication and recursion support.
+- [ClassNames II](machine-coding/classNamesII/index.tsx): A custom implementation of the classnames utility with deduplication and recursion support.
 - [News Feed](machine-coding/news-feed/index.tsx):Infinite scroll implementation using Intersection Observer and Custom Hooks.
 - [List Format](machine-coding/listFormat/index.tsx): A utility to format string lists into natural language with support for sorting, deduplication, and truncation.
 - [Throttle](machine-coding/throttle/index.tsx):A high-performance throttle utility supporting leading/trailing execution options and cancellation.
