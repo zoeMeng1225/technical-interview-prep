@@ -23,7 +23,7 @@ export default function classNames(...args:any[]): string{
             process(item())
         }else if(Array.isArray(item)){
             //Array case: recursive traversal
-            item.forEach(process);
+            item.forEach(process); //item.forEach(i => process(i))
         }else if(type === 'object'){
             //Object case: handle switch logic
             //for example: classNames({foo: true, bar:false})
@@ -37,6 +37,6 @@ export default function classNames(...args:any[]): string{
         }
     }
     //traverse all args
-    args.forEach(process);
+    args.forEach(process); //arg.forEach(i => process(i))
     return Array.from(classes).join(' ')
 }
