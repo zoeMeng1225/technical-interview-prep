@@ -21,6 +21,7 @@ This repository contains my solutions and design documents for frontend technica
 - [Event Emitter](machine-coding/event-emitter/index.ts): A Node.js-style implementation of the Publish-Subscribe pattern. Features method chaining (`.on().on()`), type safety, and robust listener management.
 - [Deep Clone](machine-coding/deep-clone/index.ts): A robust utility for recursively copying nested objects and arrays. Features TypeScript generics for type retention and ensures complete reference decoupling.
 - [Promise.all](machine-coding/promiseAll/index.tsx): A robust polyfill for the native Promise.all method. Features parallel execution, strict order preservation, fail-fast error handling, and TypeScript generics support.
+- [Data Merging](machine-coding/dataMerging/index.tsx): A data transformation utility for aggregating session records by user. Features numeric accumulation for duration and deduplicated, sorted merging for array fields.
 
 ## 🚀 How to Run Tests
 
