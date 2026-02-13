@@ -23,6 +23,7 @@ This repository contains my solutions and design documents for frontend technica
 - [Promise.all](machine-coding/promiseAll/index.tsx): A robust polyfill for the native Promise.all method. Features parallel execution, strict order preservation, fail-fast error handling, and TypeScript generics support.
 - [Data Merging](machine-coding/dataMerging/index.tsx): A data transformation utility for aggregating session records by user. Features numeric accumulation for duration and deduplicated, sorted merging for array fields.
 - [Array.prototype.reduce](machine-coding/arrayPrototypeReduce/index.tsx): A robust polyfill for the native Array.prototype.reduce method. Features comprehensive error handling for empty arrays and correct processing of sparse arrays (holes).
+- [Get Elements By Style](machine-coding/getElementByStyle/index.tsx): A DOM utility that recursively finds all descendant elements matching a specific computed CSS property and value. Uses `window.getComputedStyle` and avoids `querySelectorAll` to strictly follow algorithmic constraints.
 
 ## 🚀 How to Run Tests
 
